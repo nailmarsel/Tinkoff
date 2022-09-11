@@ -1,4 +1,4 @@
-from train import all_combinations, words
+from train import all_combinations, read_data
 import random
 random.seed(10)
 words=input("Путь к файлу\t>")
