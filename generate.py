@@ -1,7 +1,9 @@
 from train import all_combinations, words
 import random
 random.seed(10)
-
+words=input("Путь к файлу\t>")
+if words=="":
+    words="poems.txt"
 def predict(prefix=random.choices(words),lenght=None):
     text=str(prefix)+" "
     data_count, data_head = all_combinations(prefix)
