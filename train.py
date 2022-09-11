@@ -51,10 +51,3 @@ def all_combinations(word):
     for i in range(len(data_head)):
         data_count[i]=data_.count(data_head[i])
     return data_count,data_head
-
-data_index = 0
-dataset=[]
-WINDOW_SIZE = 2
-word2int = {}
-vocab_size=len(words)
-dataset_f= {}
